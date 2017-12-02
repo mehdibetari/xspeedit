@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XspeedIt</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>XspeedIt</h1>
+    <form>
+        <input name="chain" type="text" placeholder="enter an items chain"/>
+        <div class="api-error">XspeedIt Api response failed</div>
+        <div class="label-error">Invalid chain : numbers expected [1-9]</div>
+        <div class="label-action">Hit ENTER to package your items</div>
+        <div class="label-result"></div>
+        <ul class="flex-container"></ul>
+    </form>
+    <script src="/app.min.js"></script>
+</body>
+</html>
